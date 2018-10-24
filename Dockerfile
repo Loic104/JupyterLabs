@@ -42,6 +42,8 @@ RUN conda install --quiet --yes \
     'vincent=0.4.*' \
     'beautifulsoup4=4.6.*' \
     'protobuf=3.*' \
+    'conda-forge' \
+    'jupyterlab' \
     'xlrd'  && \
     conda remove --quiet --yes --force qt pyqt && \
     conda clean -tipsy && \
